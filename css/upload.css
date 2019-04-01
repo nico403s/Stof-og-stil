@@ -1,3 +1,95 @@
 @charset "utf-8";
 /* CSS Document */
 
+body{
+    padding: 20px;
+}
+
+.parent-div{
+    width: 960px;
+    border: 2px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.child-div{
+    width: 500px;
+    border: 2px;
+    margin: 0 auto;
+    border-radius: 15px; 
+}
+
+.parent-div1{
+    width: 960px;
+    border: 2px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 30px;
+}
+
+.child-div1{
+    width: 500px;
+    border: 2px;
+    margin: 0 auto;
+    border-radius: 15px; 
+}
+
+
+
+h1{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav{
+    background: #DFC0D9;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav .left{ 
+margin-left: 5%;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+    
+    
+}
+
+.nav li{
+    display: inline-block;
+    margin: auto;
+    height:
+    margin-left: 5%;
+}
+
+.navimg{
+    max-height: 10%;
+    
+}
+
