@@ -126,20 +126,77 @@ input, select {
 }
 h4{
 	display: inline-block;
-	font: "Signika Light";
+	font-family: "Signika Light";
 	font-size: 50px;
 	float: left;
-	margin: 244.4px auto 0 74.998px;
+	margin: 244.4px auto 0 78.998px;
 }
 .rightline{
 	float: right;
 	width: 200px;
 	margin: 165px 100px 0 0px;
 }
-
-
-
-
+.fb-login{
+	float: left;
+	position: relative;
+	width: 15%;
+	height: 10px;
+	border: solid 3px #707070;
+	padding: 60px 80px;
+	margin: 100px 0 60px 100px;
+	background-color: #3B579D;
+	border-radius: 10px;
+}
+.fb-login img{
+	height: 88px;
+	widows: 88px;
+	border: solid 3px #FFFFFF;
+	border-radius: 10px;
+	margin: -40px auto;
+	display: block;
+	padding: 0;
+}
+p{
+	font-family: "Signika Light";
+	font-size: 35px;
+	float: left;
+	margin: 158px 0 0 47px;
+}
+.g-login{
+	float: right;
+	position: relative;
+	width: 15%;
+	height: 10px;
+	border: solid 3px #707070;
+	padding: 60px 80px;
+	margin: 100px 100px 60px 0px;
+	background-color: #FFF;
+	border-radius: 10px;
+}
+.g-login img{
+	height: 88px;
+	widows: 88px;
+	border-radius: 10px;
+	margin: -40px auto;
+	display: block;
+	padding: 0;
+}
+.infoboxe{
+	float: left;
+	position: relative;
+	margin: 0 auto;
+}
+.infoboxe input{
+	border: solid 3px #707070;
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	height: 80px;
+	width: 79%;
+	margin: 120px 0 0 100px;
+	font-family: "Signika Light";
+	font-size: 40px; 
+}
 
 
 
