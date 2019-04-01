@@ -43,6 +43,30 @@ h1{
 
 
 
+.icon-bar {
+  width: 100%;
+  background-color: #DFC0D9;
+  overflow: auto;
+
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #74476B;
+}
 
 
 
@@ -84,8 +108,6 @@ ul{
 .nav li{
     display: inline-block;
     margin: auto;
-    height:
-    margin-left: 5%;
 }
 
 .navimg{
