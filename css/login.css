@@ -1,3 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.for{
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 85%);
+}
+
+.log{
+    width: 80%;
+    margin: 10%;
+    border: none;
+    outline: none;
+}
+.input{
+    width: 100%;
+}
+
+imput, textarea{
+     border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
+imput:focus, textarea:focus{
+     border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+}
