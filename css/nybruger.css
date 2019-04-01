@@ -114,6 +114,15 @@ input, select {
 		 url("font/Signika-SemiBold.ttf"),
 		 url("font/Signika-Regular.ttf");
 }
+.tilbage{
+	float: left;
+	margin: 100px 0 0 90px;
+	position: absolute;
+}
+.tilbage img{
+	width: 30px;
+	height: 30px;
+}
 .logo{
 	float: right;
 	margin: 50px 40px 0 0;
