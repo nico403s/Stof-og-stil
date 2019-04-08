@@ -108,24 +108,17 @@ input, select {
 
 
 /* My code */
-
-@font-face{
-	font-family: 'MyWebFont';
-	src: url("font/Signika-Light.ttf") format('signilight'),
-		 url("font/Signika-Bold.ttf"),
-		 url("font/Signika-SemiBold.ttf"),
-		 url("font/Signika-Regular.ttf");
-}
 *{
     padding: 0;
     margin: 0;
+    opacity: 0;
     
-    animation: op 0s 0.8s forwards ease-in-out;
+    animation: op 1s forwards ease-in-out;
     
 }
 @keyframes op{
   from{
-        transform: translateY(20%);
+        transform: translateY(100%);
         opacity: 0;
     }
     to {
@@ -134,6 +127,15 @@ input, select {
     }
 
 }
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
 .tilbage{
 	float: left;
 	margin: 100px 0 0 90px;
