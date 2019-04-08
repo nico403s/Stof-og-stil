@@ -21,22 +21,68 @@
 
 #rcorners {
     border-radius: 15px;
-    border: 2px solid grey;
+    border: 1px solid grey;
     padding: 20px;
     width:80%;
     height: 350px;
     margin: 200px 50px;
-    background-image: url(../img/kyllinger.jpeg)
+    background-image: url(../img/gultr%C3%B8je.jpeg);
+    background-size: cover;
    
 }
 
 #rcorners1 {
     border-radius: 15px;
-    border: 2px solid grey;
+    border: 1px solid grey;
     padding: 20px;
     width: 80%;
     height: 350px;
     margin: 200px 50px;
+    background-image: url(../img/diytoilettaskestrik.jpeg);
+    background-size: cover;
+}
+#rcorners2 {
+    border-radius: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 80%;
+    height: 350px;
+    margin: 200px 50px;
+    background-image: url(../img/kyllinger.jpeg);
+    background-size: cover;
+}
+
+#rcorners3 {
+    border-radius: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 80%;
+    height: 350px;
+    margin: 200px 50px;
+    background-image: url(../img/lyserodtaske.png);
+    background-size: cover;
+}
+
+#rcorners4 {
+    border-radius: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 80%;
+    height: 350px;
+    margin: 200px 50px;
+    background-image: url(../img/strikhansker.png);
+    background-size: cover;
+}
+
+#rcorners5 {
+    border-radius: 15px;
+    border: 1px solid grey;
+    padding: 20px;
+    width: 80%;
+    height: 350px;
+    margin: 200px 50px;
+    background-image: url(../img/pige.png);
+    background-size: cover;
 }
 
 p {
