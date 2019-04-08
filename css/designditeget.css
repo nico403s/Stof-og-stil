@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
+h2{
+    padding: 10px;
+    font-family: "Signika Light";
+	font-size: 50px;
+}
+
+.column{
+    width: 100%;
+}
+
+.rcorners {
+    border-radius: 15px;
+    padding: 1.5%;
+    width: 30%;
+}
+
+.rcorners1 {
+    border-radius: 15px;
+    padding: 1.5%;
+    width: 30%;
+   
+}
+.rcorners2 {
+    border-radius: 15px;
+    padding: 1.5%;
+    width: 30%;
+  
+}
