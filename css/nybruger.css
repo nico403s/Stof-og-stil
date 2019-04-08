@@ -9,6 +9,8 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
+
+
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -113,6 +115,24 @@ input, select {
 		 url("font/Signika-Bold.ttf"),
 		 url("font/Signika-SemiBold.ttf"),
 		 url("font/Signika-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    
+    animation: op 0s 0.8s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
 }
 .tilbage{
 	float: left;

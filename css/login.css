@@ -4,7 +4,23 @@
 *{
     padding: 0;
     margin: 0;
+    
+    animation: op 0s 1s forwards ease-in-out;
+    
 }
+@keyframes op{
+  from{
+        transform: translateY(20%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+
 .logonik{
     display: block;
     position: relative;
