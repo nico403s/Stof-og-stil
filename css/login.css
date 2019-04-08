@@ -5,29 +5,46 @@
     padding: 0;
     margin: 0;
 }
+.logonik{
+    display: block;
+    position: relative;
+    padding-top: 115%;
+    margin: auto;
+    width: 35%;
+    
+}
 
 .for{
     width: 100%;
-    clip-path: polygon(0 0, 100% 0, 100% 65%, 0% 85%);
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 95%);
 }
 
-.log{
-    width: 80%;
-    margin: 10%;
-    border: none;
-    outline: none;
+
+.infoboxe{
+	float: left;
+	margin: 0 auto;
 }
-.input{
-    width: 100%;
+.infoboxe input{
+	border: solid 2px #707070;
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	height: 80px;
+	width: 79%;
+	margin: 120px 0 0 100px;
+	font-family: "Signika Light";
+	font-size: 40px; 
+    padding-left: 20px;
 }
 
-imput, textarea{
-     border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
+.nybrug{
+ 
 }
-imput:focus, textarea:focus{
-     border: none;
-    outline: none;
-    border-bottom: 1px solid grey;
+
+.opret{
+    text-align: center;
+    background-color: aqua;
+    border: solid 2px #707070;
+	border-radius: 10px;
 }
