@@ -25,7 +25,7 @@
     padding: 20px;
     width:80%;
     height: 350px;
-    margin: 200px 50px;
+    margin: 100px 50px;
     background-image: url(../img/gultr%C3%B8je.jpeg);
     background-size: cover;
    
@@ -85,6 +85,52 @@
     background-size: cover;
 }
 
-p {
-    
+*{
+    padding: 0;
+    margin: 0;
 }
+
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 12%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
