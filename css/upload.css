@@ -1,6 +1,14 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
 body{
     padding: 20px;
 }
@@ -18,6 +26,7 @@ body{
     border: 2px;
     margin: 0 auto;
     border-radius: 55px; 
+    padding-top: 40px;
 }
 
 .parent-div1{
@@ -74,6 +83,11 @@ h1{
 
 }
 
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}
 
 
 
