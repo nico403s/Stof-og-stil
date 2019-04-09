@@ -9,36 +9,37 @@ body{
     width: 960px;
     border: 2px;
     margin: 0 auto;
-    padding-bottom: 100px;
-    padding-top: 30px;
+    padding-bottom: 75px;
+    padding-top: 75px;
 }
 
 .child-div{
-    width: 500px;
+    width: 650px;
     border: 2px;
     margin: 0 auto;
-    border-radius: 15px; 
+    border-radius: 55px; 
 }
 
 .parent-div1{
     width: 960px;
     border: 2px;
     margin: 0 auto;
-    padding-bottom: 100px;
+    padding-bottom: 75px;
     padding-top: 30px;
 }
 
 .child-div1{
-    width: 500px;
+    width: 650px;
     border: 2px;
     margin: 0 auto;
-    border-radius: 15px; 
+    border-radius: 55px; 
 }
 
 
 
 h1{
     text-align: center;
+    font-size: 50px;
 }
 
 
@@ -66,57 +67,15 @@ h1{
 }
 
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #BF81B4;
 }
 
 .active {
   background-color: #74476B;
+
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.nav{
-    background: #DFC0D9;
-    overflow: auto;
-    position: fixed;
-    width: 100%;
-    
-}
-
-.nav .left{ 
-margin-left: 5%;
-}
-
-ul{
-    list-style: none;
-    display: inline-block;
-    
-    
-}
-
-.nav li{
-    display: inline-block;
-    margin: auto;
-}
-
-.navimg{
-    max-height: 10%;
-    
-}
 
