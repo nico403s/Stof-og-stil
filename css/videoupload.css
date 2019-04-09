@@ -1,3 +1,109 @@
 @charset "utf-8";
 /* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+    padding-bottom: 75px;
+}
+
+.tilbage{
+	float: left;
+	margin: 100px 0 0 90px;
+	position: absolute;
+}
+.tilbage img{
+	width: 30px;
+	height: 30px;
+}
+
+body{
+    padding: 20px;
+}
+
+.parent-div{
+    width: 960px;
+    border: 2px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    padding-top: 75px;
+}
+
+.child-div{
+    width: 650px;
+    border: 2px;
+    margin: 0 auto;
+    border-radius: 25px; 
+    padding-top: 75x;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color:;
+  padding: 20px;
+}
+
+.opretbox{
+	float: left;
+	position: relative;
+	height: 160px;
+	width: 79%;
+	margin: 200px 0 0 100px;
+	border: solid 3px #707070;
+	background-color: #59B08D;
+	border-radius: 10px;
+}
+.opretbox p{
+	font-family: "Signika Light";
+	font-size: 50px;
+	color: #FFF;
+	margin: 60px 325px;
+	text-decoration: underline;
+    text-align: center;
+}
 
