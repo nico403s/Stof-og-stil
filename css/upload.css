@@ -27,7 +27,13 @@
 		 url("font/Signika-SemiBold.ttf"),
 		 url("font/Signika-Regular.ttf");
 }
+html, body{
+    height: 100%;
+}
 
+#container{
+    min-height: 100%;
+}
 
 
 .parent-div{
@@ -70,17 +76,12 @@ h1{
 }
 
 /*-----------FOOTER/Navbar-----------*/
-html, body{
-    height: 100%;
-}
 
-#container{
-    min-height: 100%;
-}
+
 
 #main{
     overflow: auto;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 
 #footer{
@@ -90,6 +91,8 @@ html, body{
     margin-top: -150px;
     clear: both;
 }
+
+
 
 .icon-bar a {
   float: left;
