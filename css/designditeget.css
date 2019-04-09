@@ -43,42 +43,59 @@ h2{
 	font-size: 50px;
 }
 
+.templet{
+    float: left;
+    width: 70%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+}
+
 .column{
     width: 100%;
 }
 
 .rcorners {
+    padding-top: 1.5%;
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 12%;
+    width: 15%;
 }
 
 .rcorners1 {
+    padding-top: 1.5%;
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 12%;
+    width: 15%;
    
 }
 .rcorners2 {
+    padding-top: 1.5%;
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 12%;
+    width: 15%;
   
 }
-.btn{
+.bun{
     margin: 100px;
-     float: right;
+    float: right;
     width: 300px;
     height: 150px;
-    background-color: greenyellow;
-    
 }
-.knap{
-    text-align: center;
-    display: inline-block;
+
+.btn{
+    text-decoration: none;
+    width: 300px;
+    height: 150px;
+    border: solid 3px #707070;
+	background-color: #59B08D;
+	border-radius: 10px;
     font-family: "Signika Light";
-	font-size: 40px;
-    
+	font-size: 50px;
 }
 
     
