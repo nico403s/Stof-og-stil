@@ -35,6 +35,10 @@ html, body{
     min-height: 100%;
 }
 
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
 
 .parent-div{
     width: 960px;
@@ -79,10 +83,7 @@ h1{
 
 
 
-#main{
-    overflow: auto;
-    padding-bottom: 150px;
-}
+
 
 #footer{
     background-color: #DFC0D9;

@@ -3,6 +3,8 @@
     margin: 0;
 }
 
+
+/*---------skal være i toppen------*/
 html, body{
     height: 100%;
 }
@@ -16,6 +18,11 @@ html, body{
     padding-bottom: 100px;
 }
 
+
+/*---------skal være i bunden------*/
+
+
+/*---------Footer------*/
 #footer{
     background-color: #DFC0D9;
     position: relative;
