@@ -106,8 +106,8 @@ h2{
 #footer{
     background-color: #DFC0D9;
     position: relative;
-    height: 150px;
-    margin-top: -150px;
+    height: 125px;
+    margin-top: -125px;
     clear: both;
 }
 
