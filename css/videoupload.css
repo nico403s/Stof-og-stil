@@ -51,11 +51,11 @@ body{
 }
 
 .parent-div{
-    width: 960px;
+    width: 1000px;
     border: 2px;
     margin: 0 auto;
     padding-bottom: 75px;
-    padding-top: 75px;
+    padding-top: 100px;
 }
 
 .child-div{
@@ -66,18 +66,20 @@ body{
     padding-top: 75x;
 }
 
-body {font-family: Arial, Helvetica, sans-serif;}
+body
 * {box-sizing: border-box;}
 
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 10px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+    font-size: 40px;
+    font-family: 'signilight';
 }
 
 
@@ -86,7 +88,12 @@ input[type=text], select, textarea {
   border-radius: 5px;
   background-color:;
   padding: 20px;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 100px;
 }
+
+
 
 .opretbox{
 	float: left;
@@ -107,3 +114,27 @@ input[type=text], select, textarea {
     text-align: center;
 }
 
+p1{
+    padding-top: 25px;
+    float: left;
+    font-size: 30px;
+    font-family:'signilight';
+    
+}
+.button {
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+    float: right;
+    border-radius: 10px;
+}
+
+.button2 {background-color: yellow;} /* Blue */
+.button3 {background-color: green;} /* Red */ 

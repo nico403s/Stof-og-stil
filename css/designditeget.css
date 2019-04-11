@@ -38,9 +38,20 @@ html, body{
 }
 
 h2{
-    padding: 10px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-bottom: 5px;
     font-family: "Signika Light";
 	font-size: 50px;
+}
+
+.templet{
+    float: left;
+    width: 70%;
+    margin-left: 7.5%;
+    margin-top: 5%;
+    margin-right: 15%;
+    margin-bottom: 10%;
 }
 
 .column{
@@ -48,37 +59,45 @@ h2{
 }
 
 .rcorners {
+    
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 10%;
+    width: 20%;
 }
 
 .rcorners1 {
+    
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 10%;
+    width: 20%;
    
 }
 .rcorners2 {
+    
+    padding-bottom: 3%;
     border-radius: 15px;
-    padding: 1.5%;
-    width: 30%;
+    padding-left: 10%;
+    width: 20%;
   
 }
-.btn{
+.bun{
     margin: 100px;
-     float: right;
+    float: right;
     width: 300px;
     height: 150px;
-    background-color: greenyellow;
-    
 }
-.knap{
-    text-align: center;
-    display: inline-block;
+
+.btn{
+    text-decoration: none;
+    width: 300px;
+    height: 150px;
+    border: solid 3px #707070;
+	background-color: #59B08D;
+	border-radius: 10px;
     font-family: "Signika Light";
-	font-size: 40px;
-    
+	font-size: 50px;
 }
 
     
@@ -89,8 +108,8 @@ h2{
 #footer{
     background-color: #DFC0D9;
     position: relative;
-    height: 150px;
-    margin-top: -150px;
+    height: 125px;
+    margin-top: -125px;
     clear: both;
 }
 
