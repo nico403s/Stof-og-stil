@@ -47,15 +47,21 @@ html, body{
 .icon{
     float: left;
     display: block;
-    width: 30%;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 15px;
+    width: 35%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    margin-top: 20%;
+    border-radius: 25px;
 }
 
 p{
     float: left;
     display: block;
+    width: 50%;
+    text-align: center;
+    font-family: "Signika Light";
+	font-size: 50px;
+    
 }
 
 
