@@ -1,3 +1,104 @@
-@charset "utf-8";
-/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1; 
+    animation: op 1s forwards ease-in-out;
+}
+@keyframes op{
+  from{
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 100px;
+   
+}
+
+.log{
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.icon{
+    float: left;
+    display: block;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 15px;
+}
+
+p{
+    float: left;
+    display: block;
+}
+
+
+
+
+
+/*-----------FOOTER/Navbar-----------*/
+
+
+
+
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+}
+
+
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}

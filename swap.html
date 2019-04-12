@@ -5,25 +5,21 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <body>
 
-<div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
-</div>
-
-<div class="w3-content" style="max-width:600px">
+<div class="templet">
   <img class="mySlides" src="/img/bukserne.png" style="width:100%;display:none">
-  <img class="mySlides" src="/img/bukserne.png" style="width:100%">
-  <img class="mySlides" src="/img/bukserne.png" style="width:100%;display:none">
+  <img class="mySlides" src="/img/stofgul.png" style="width:100%">
+  <img class="mySlides" src="/img/stoggron.png" style="width:100%;display:none">
 
+<h2>Trøjer osv.</h2>
   <div class="w3-row-padding w3-section">
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/img/bukserne.png" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+      <img class="opacityoff" src="/img/bukserne.png" onclick="currentDiv(1)">
     </div>
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/img/bukserne.png" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+      <img class="opacityoff" src="/img/stofgul.png" onclick="currentDiv(2)">
     </div>
     <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="/img/bukserne.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+      <img class="opacityoff" src="/img/stoggron.png" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
     </div>
   </div>
 </div>
@@ -43,10 +39,10 @@ function showDivs(n) {
     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
+    dots[i].className = dots[i].className.replace("opacityoff", "");
   }
   x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " w3-opacity-off";
+  dots[slideIndex-1].className += "opacityoff";
 }
 </script>
 
