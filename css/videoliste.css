@@ -79,6 +79,19 @@ h2{
     margin-top: 150px;
   
 }
+
+.komp{
+    float: left;
+    background-image: url(../img/pige.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    border-radius: 15px;
+    margin-top: 150px;
+  
+}
+
 .hlll{
     float: left;
     width: 50%;
@@ -114,8 +127,8 @@ h2{
 }
 .svar{
     float: left;
-    margin-top: 45px;
-    margin-left: 35%;
+    margin-top: 25px;
+    margin-left: 5%;
     height: 40px;
     
     
@@ -131,26 +144,27 @@ h2{
     width: 300px;
     margin-right: 5%;
     border-radius: 15px;
-    margin-top: 150px;
+    margin-top: 250px;
   
 }
 
 .hojre{
     float: right;
+    position: relative;
     background-image: url(../img/Sk%C3%A6rmbillede%202019-03-21%20kl.%2012.27.36.png);
     background-size: cover;
     height: 300px;
     width: 300px;
     margin-right: 5%;
     border-radius: 15px;
-    margin-top: 150px;
+    margin-top: 200px;
   
 }
 
 .hr{
     float: left;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 7%;
     font-family: "Signika Light";
 	font-size: 40px;
     margin-bottom: 10px;
@@ -160,7 +174,7 @@ h2{
 .hrr{
     float: left;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 7%;
     font-family: "Signika Light";
 	font-size: 35px;
     margin-bottom: 10px;
@@ -169,20 +183,18 @@ h2{
 .pr{
     float:left;
     width: 50%;
-    margin-left: 10%;
+    margin-left: 7%;
     font-family: "Signika Light";
 	font-size: 30px;
 }
 .svarh{
     float: right;
-    margin-right: 35%;
-    margin-top: 45px;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-left: 7%;
     height: 35px;
     
-    
 }
-
-
 
 
 
@@ -194,6 +206,7 @@ h2{
     height: 150px;
     margin-top: -150px;
     clear: both;
+    width: 100%;
 }
 
 
@@ -221,4 +234,5 @@ h2{
 	float: right;
 	margin: 50px 40px 0 0;
 	position: inherit;
+    height: 150px;
 }
