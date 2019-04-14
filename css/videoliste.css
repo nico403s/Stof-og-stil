@@ -1,3 +1,224 @@
-@charset "utf-8";
-/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Signika Light";
+	font-size: 50px;
+    margin-bottom: 10%;
+}
+
+
+.vid{
+    width: 100%;
+    height: 15%;
+    margin-top: 100px;
+}
+
+
+
+/*----- venstre video --------*/
+.left{
+    float: left;
+    background-image: url(../img/kyllinger.jpeg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    border-radius: 15px;
+  
+}
+
+.venstre{
+    float: left;
+    background-image: url(../img/lyserodtaske.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    border-radius: 15px;
+    margin-top: 150px;
+  
+}
+.hlll{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 40px;
+   
+}
+.hl{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 40px;
+    margin-top: 150px;
+   
+}
+.hll{
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pl{
+    float: left;
+    width: 55%;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 30px;
+}
+.svar{
+    float: left;
+    margin-top: 45px;
+    margin-left: 35%;
+    height: 40px;
+    
+    
+}
+
+/*----- højre video --------*/
+
+.right{
+    float: right;
+    background-image: url(../img/gultr%C3%B8je.jpeg);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-top: 150px;
+  
+}
+
+.hojre{
+    float: right;
+    background-image: url(../img/Sk%C3%A6rmbillede%202019-03-21%20kl.%2012.27.36.png);
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-right: 5%;
+    border-radius: 15px;
+    margin-top: 150px;
+  
+}
+
+.hr{
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    font-family: "Signika Light";
+	font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 150px;
+}
+
+.hrr{
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+    font-family: "Signika Light";
+	font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.pr{
+    float:left;
+    width: 50%;
+    margin-left: 10%;
+    font-family: "Signika Light";
+	font-size: 30px;
+}
+.svarh{
+    float: right;
+    margin-right: 35%;
+    margin-top: 45px;
+    height: 35px;
+    
+    
+}
+
+
+
+
+
+/*-----------FOOTER/Navbar-----------*/
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+}
+
+
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}
