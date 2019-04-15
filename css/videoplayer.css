@@ -1,3 +1,200 @@
-@charset "utf-8";
-/* CSS Document */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+@keyframes op{
+  from{
+        transform: translateY(10%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+
+h2{
+    text-align: center;
+    margin-top: 10%;
+    font-family: "Signika Light";
+	font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.kyl{
+    height: 500px;
+    width: 100%;
+    border-radius: 25px;
+    margin-top: 150px;
+    background-image: url(../img/kyllinger.jpeg);
+    background-size: cover;
+}
+
+.svar{
+    float: left;
+    margin-left: 5%;
+    margin-top: 35px;
+    height: 35px;
+}
+
+.like{
+    float: right; 
+    margin-top: 25px;
+    margin-right: 5%;
+    height: 55px;
+}
+.gem{
+    float: right; 
+    margin-top: 25px;
+    margin-right: 10%;
+    height: 55px;
+}
+
+p{
+    float: left;
+    width: 90%;
+    margin-top: 25px;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 16px;
+}
+
+h3{
+    float: left;
+    width: 100%;
+    margin-left: 5%;
+    font-family: "Signika Light";
+	font-size: 45px;
+    margin-top: 25px;
+   
+}
+
+.column{
+    width: 100%;
+}
+
+.pro{
+    float: left;
+    margin-bottom: 3%;
+    border-radius: 15px;
+    margin-left: 10%;
+    margin-top: 25px;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.iconl{
+    float: left;
+    background-image: url(../img/herretaske.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.iconm{
+    float: left;
+    background-image: url(../img/pige.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.iconh{
+    float: left;
+    background-image: url(../img/Sk%C3%A6rmbillede%202019-03-21%2014.22.34.png);
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin-left: 10%;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+.infoboxe{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.infoboxe input{
+	border: solid 3px #59B08D;
+	border-radius: 10px;
+	background: transparent;
+	outline: none;
+	height: 80px;
+	width: 90%;
+    margin-top: 60px;
+	margin-left: 5%;
+	font-family: "Signika Light";
+	font-size: 40px; 
+    padding-left: 20px;
+}
+
+
+/*-----------FOOTER/Navbar-----------*/
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+    width: 100%;
+}
+
+
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+    height: 150px;
+}
