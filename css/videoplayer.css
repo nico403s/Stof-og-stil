@@ -47,6 +47,14 @@ h2{
     margin-bottom: 10%;
 }
 
+.tilbage{
+    width: 40px;
+	height: 40px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 7%;
+}
+
 .kyl{
     height: 500px;
     width: 100%;
@@ -180,7 +188,6 @@ h3{
   text-align: center;
   padding: 12px 0;
   transition: all 0.3s ease;
-  color: white;
   font-size: 36px;
 }
 
@@ -193,9 +200,4 @@ h3{
 
 }
 
-.logo{
-	float: right;
-	margin: 50px 40px 0 0;
-	position: inherit;
-    height: 150px;
-}
+
