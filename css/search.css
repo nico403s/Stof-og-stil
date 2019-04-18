@@ -168,15 +168,16 @@ html, body{
 	float: right;
 	position: absolute;
 	z-index: 3;
-	margin: 100px 40px 0 calc(100% - 300px);
+	margin: 100px 100px 0 calc(100% - 325px);
 	width: auto;
 }
 #swoosh img{
 	position: sticky;
 	width: 980px;
-	height: 2000px;
+	height: 1000px;
 	float: left;
 	z-index: 2;
+	margin-top: 900px;
 }
 #back-img img{
 	position: absolute;
@@ -210,6 +211,145 @@ p{
 	font-size: 35px;
 	font-family: "Signika Light";
 	color: #707070;
+}
+.leftanbefalet{
+	width: 30%;
+	margin: 1250px 0 0 0;
+	position: absolute;
+}
+.leftanbefalet img{
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 0 0 80px 100px;
+	border-radius: 30px;
+	border: solid 2px #59B08D;
+}
+.lastpicleft{
+	position: absolute;
+	width: 30%;
+	
+}
+.lastpicleft img{
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 2550px 0 180px 100px;
+	border-radius: 30px;
+	border: solid 2px #59B08D;
+}
+.rightanbefalet{
+	width: 30%;
+	margin: 1250px 0 0 0;
+	position: absolute;
+}
+.rightanbefalet img{
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 0 0px 80px 520px;
+	border-radius: 30px;
+	border: solid 2px #59B08D;
+}
+.lastpicright{
+	position: absolute;
+	width: 30%;
+}
+.lastpicright img{
+	width: 350px;
+	height: 350px;
+	float: left;
+	margin: 2550px 0px 180px 520px;
+	border-radius: 30px;
+	border: solid 2px #59B08D;
+}
+.filmicon1{
+	position: absolute;
+}
+.filmicon1 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 1220px 0 0 80px;
+}
+.filmicon2{
+	position: absolute;
+}
+.filmicon2 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 1220px 0 0 500px;
+}
+.blogicon1{
+	position: absolute;
+}
+.blogicon1 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 1650px 0 0 80px;
+}
+.blogicon2{
+	position: absolute;
+}
+.blogicon2 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 1650px 0 0 500px;
+}
+.blogicon3{
+	position: absolute;
+}
+.blogicon3 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 2080px 0 0 80px;
+}
+.filmicon3{
+	position: absolute;
+}
+.filmicon3 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 2080px 0 0 500px;
+}
+.filmicon4{
+	position: absolute;
+}
+.filmicon4 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 2510px 0 0 80px;
+}
+.blogicon4{
+	position: absolute;
+}
+.blogicon4 img{
+	height: 100px;
+	width: 100px;
+	float: left;
+	border-radius: 100px;
+	border: solid 2px #707070;
+	margin: 2510px 0 0 500px;
 }
 #footer{
     background-color: #DFC0D9;

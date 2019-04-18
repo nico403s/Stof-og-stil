@@ -1,3 +1,271 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+/* My code */
+*{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    
+    animation: op 1s forwards ease-in-out;
+    
+}
+html, body{
+    height: 100%;
+}
+
+#container{
+    min-height: 100%;
+}
+
+#main{
+	min-height: 100%;
+	width: 980px;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+@keyframes op{
+  from{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+}
+
+@font-face{
+	font-family: 'MyWebFont';
+	src: url("font/Signika-Light.ttf") format('signilight'),
+		 url("font/Signika-Bold.ttf"),
+		 url("font/Signika-SemiBold.ttf"),
+		 url("font/Signika-Regular.ttf");
+}
+
+/*----- Not used on this page
+#tilbage{
+	float: left;
+	margin: 100px 0 0 90px;
+	position: absolute;
+	z-index: 1;
+}
+#tilbage img{
+	float: left;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+}
+-----*/
+#logo{
+	float: right;
+	position: absolute;
+	z-index: 3;
+	margin: 100px 100px 0 calc(100% - 325px);
+	width: auto;
+}
+#menudots{
+	position: absolute;
+	float: right;
+	margin: 100px 0 0 700px;
+	z-index: 3;
+}
+#menudots img{
+	width: 200px;
+	border-radius: 20px;
+	background: 500px 500px;
+	background-size: 500px 500px;
+	background-color: #FFF;
+}
+#swoosh img{
+	position: sticky;
+	width: 980px;
+	height: 1000px;
+	float: left;
+	z-index: 2;
+	margin-top: 900px;
+}
+#back-img img{
+	position: absolute;
+	width: 980px;
+	float: left;
+	z-index: 2;
+}
+
+.infoboxe{
+	float: left;
+	position: absolute;
+	margin: 1000px auto auto auto;
+}
+.infoboxe input{
+	border: solid 2px #707070;
+	border-radius: 10px;
+	background: #FFF;
+	outline: none;
+	height: 100px;
+	width: calc(79% - 30px);
+	margin: 0 0 50px 100px;
+	font-family: "Signika Light";
+	font-size: 40px; 
+}
+.infoboxe input[type="text"]{
+	padding-left: 30px;
+}
+.logoutbox{
+	float: left;
+	position: absolute;
+	height: 160px;
+	width: 79%;
+	margin: 1750px 0 0 100px;
+	border: solid 3px #707070;
+	background-color: #FF2700;
+	border-radius: 10px;
+}
+.logoutbox p{
+	font-family: "Signika Light";
+	font-size: 50px;
+	color: #FFF;
+	text-align: center;
+	margin-top: 48px;
+	text-decoration: underline;
+}
+
+#footer{
+    background-color: #DFC0D9;
+    position: relative;
+    height: 150px;
+    margin-top: -150px;
+    clear: both;
+}
+
+.icon-bar a {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #BF81B4;
+}
+
+.active {
+  background-color: #74476B;
+
+}
+
+.logo{
+	float: right;
+	margin: 50px 40px 0 0;
+	position: inherit;
+}
