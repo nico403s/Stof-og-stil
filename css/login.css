@@ -18,6 +18,14 @@
 
 }
 
+#swoosh img{
+	position: sticky;
+	width: 980px;
+	height: 1000px;
+	float: left;
+	z-index: 2;
+	margin-top: 900px;
+}
 
 .logonik{
     display: block;
