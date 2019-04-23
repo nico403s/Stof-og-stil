@@ -24,28 +24,31 @@
 	height: 1000px;
 	float: left;
 	z-index: 2;
-	margin-top: 900px;
+	margin-top: 1100px;
 }
 
 .logonik{
     display: block;
     position: relative;
     padding-top: 115%;
-    margin: auto;
+    margin-left: 33% ;
     width: 35%;
+    position: absolute;
     
 }
 
 .for{
     width: 100%;
     position: absolute;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 95%);
+    
 }
 
 
 .infoboxe{
 	float: left;
 	margin: 0 auto;
+    position: absolute;
+    padding-top: 150%;
 }
 .infoboxe input{
 	border: solid 2px #707070;
@@ -58,15 +61,17 @@
 	font-family: "Signika Light";
 	font-size: 40px; 
     padding-left: 20px;
+    
 }
 
 
 
 .btn{
+    position: absolute;
     display: block;
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
-    margin-top: 475px;
+    margin-top: 200%;
     text-decoration: none;
     width: 400px;
     height: 50px;
