@@ -38,6 +38,10 @@ html, body{
    
 }
 
+.row{
+    width: 100%;
+}
+
 #imgen{
     width:80%;
     display:none;
@@ -66,60 +70,31 @@ html, body{
 }
 
 
-h2{
-    margin-top: 30px;
+h2{ 
+    margin-top: 40px;
     margin-left: 40px;
     margin-bottom: 5px;
     font-family: "Signika Light";
 	font-size: 50px;
 }
+h3{
+    float: left;
+    padding-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 5px;
+    font-family: "Signika Light";
+	font-size: 50px; 
+}
 .billeder{
-    margin-left: 7.5%;
+    margin-left: 3.5%;
+    width: 100%;
 }
 .opacity-off{
     float: left;
     padding: 50px;
     width: 20%;
     height: 20%;
-}
-
-
-.templet{
-    float: left;
-    width: 70%;
-    margin-left: 7.5%;
-    margin-top: 5%;
-    margin-right: 15%;
-    margin-bottom: 10%;
-}
-
-.column{
-    width: 100%;
-}
-
-.rcorners {
-    
-    margin-bottom: 3%;
     border-radius: 15px;
-    margin-left: 10%;
-    width: 20%;
-}
-
-.rcorners1 {
-    
-    margin-bottom: 3%;
-    border-radius: 15px;
-    margin-left: 10%;
-    width: 20%;
-   
-}
-.rcorners2 {
-    
-    margin-bottom: 3%;
-    border-radius: 15px;
-    margin-left: 10%;
-    width: 20%;
-  
 }
 
 .str{
