@@ -98,6 +98,7 @@ h2{
 }
 
 .bun{
+	position: absolute;
     margin-right: 100px;
     margin-top: 50px;
     float: right;
