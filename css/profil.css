@@ -215,7 +215,7 @@ html, body{
 .infoboxe input[type="text"]{
 	padding-left: 30px;
 }
-.logoutbox{
+.bun{
 	float: left;
 	position: absolute;
 	height: 160px;
@@ -225,13 +225,14 @@ html, body{
 	background-color: #FF2700;
 	border-radius: 15px;
 }
-.logoutbox p{
+.btn{
 	font-family: "Signika Light";
 	font-size: 50px;
 	color: #FFF;
 	text-align: center;
 	margin-top: 48px;
 	text-decoration: underline;
+    margin-left: 40%;
 }
 
 #footer{

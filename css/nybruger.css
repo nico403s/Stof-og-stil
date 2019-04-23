@@ -137,30 +137,31 @@ input, select {
 }
 
 .tilbage{
-	float: left;
-	margin: 100px 0 0 90px;
-	position: absolute;
+    width: 40px;
+	height: 40px;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 7%;
 }
-.tilbage img{
-	width: 30px;
-	height: 30px;
-}
-.logo{
-	float: right;
-	margin: 50px 40px 0 0;
-	position: inherit;
+
+.log{
+   display: block;
+    margin-top: 10%;
+    margin-left: auto;
+    padding-right: 30%;
+    height: 50px;
 }
 .leftline{
 	float: left;
 	width: 200px;
-	margin: 254.4px 0 0 100px; 
+	margin: 165px 0 0 100px; 
 }
 h4{
 	display: inline-block;
 	font-family: "Signika Light";
 	font-size: 50px;
 	float: left;
-	margin: 244.4px auto 0 78.998px;
+	margin: 160px auto 0 78.998px;
 }
 .rightline{
 	float: right;
@@ -231,7 +232,7 @@ p{
 .infoboxe input[type="text"]{
 	padding-left: 30px;
 }
-.opretbox{
+.bun{
 	float: left;
 	position: relative;
 	height: 160px;
@@ -241,7 +242,7 @@ p{
 	background-color: #59B08D;
 	border-radius: 10px;
 }
-.opretbox p{
+.btn{
 	font-family: "Signika Light";
 	font-size: 50px;
 	color: #FFF;

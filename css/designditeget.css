@@ -63,10 +63,11 @@ html, body{
 }
 
 .bag{
-    width: 80%;
+    width: 70%;
     height: 20%;
     border-radius: 50px;
-    margin-left: 3%;   
+    margin-left: 7%; 
+    margin-top: 1%;
 }
 
 
@@ -109,7 +110,7 @@ h2{
 .btn{
     text-decoration: none;
     width: 300px;
-    height: 150px;
+    height: 100px;
     border: solid 3px #707070;
 	background-color: #59B08D;
 	border-radius: 10px;
