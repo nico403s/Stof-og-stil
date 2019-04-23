@@ -12,15 +12,30 @@
     <div id="main">
 <h2>Design dit eget tøj med vores templet</h2>
 
-<img src="img/bukserne.png" alt="trøje" class="templet">
+<div class="content">
+  <img class="mySlides" src="icons/tasken.png" id="imgen">
+  <img class="mySlides" src="img/bukserne.png" id="imgto">
+  <img class="mySlides" src="icons/troje.png" id="imgtre">
+
+<img src="img/stoftern.png" alt="stof" class="bag">
+
+<h2>Produkter</h2>
+ 
+  <div class="row">
+    <div class="billeder">
+      <img class="opacity-off" src="icons/tasken.png" onclick="currentDiv(1)">
+    </div>
+    <div class="billeder">
+      <img class="opacity-off" src="img/bukserne.png" onclick="currentDiv(2)">
+    </div>
+    <div class="billeder">
+      <img class="opacity-off" src="icons/troje.png" onclick="currentDiv(3)">
+    </div>
+  </div>
+</div>
 	
 <div class="row">
-  <h2>Produkter</h2>
-   <div class="column">
-    <img src="img/bukserne.png" alt="trøje" class="rcorners">
-    <img src="img/bukserne.png" alt="bukser" class="rcorners1">
-    <img src="img/bukserne.png" alt="taske" class="rcorners2">
-    </div>
+    
 <h2>Stof</h2>
 <div class="column">
     <img src="img/stofgul.png" alt="trøje" class="rcorners">
@@ -61,6 +76,7 @@
 </footer>
 	
 	
+
 <script>
 function currentDiv(n) {
   showDivs(slideIndex = n);
@@ -76,12 +92,13 @@ function showDivs(n) {
     x[i].style.display = "none";
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace("opacityoff", "");
+    dots[i].className = dots[i].className.replace("opacity-off", "");
   }
   x[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += "opacityoff";
+  dots[slideIndex-1].className += "opacity-off";
 }
-</script>	
+</script>
+	
 	
 
 </html>

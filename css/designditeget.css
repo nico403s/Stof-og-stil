@@ -38,6 +38,34 @@ html, body{
    
 }
 
+#imgen{
+    width:80%;
+    display:none;
+    position: absolute;
+    margin-left: 3%;
+}
+
+#imgto{
+    width:80%;
+    position: absolute;
+    margin-left: 3%;
+}
+
+#imgtre{
+    width:80%;
+    display:none;
+    position: absolute;
+    margin-left: 3%;
+}
+
+.bag{
+    width: 80%;
+    height: 20%;
+    border-radius: 50px;
+    margin-left: 3%;   
+}
+
+
 h2{
     margin-top: 30px;
     margin-left: 40px;
@@ -45,6 +73,16 @@ h2{
     font-family: "Signika Light";
 	font-size: 50px;
 }
+.billeder{
+    margin-left: 7.5%;
+}
+.opacity-off{
+    float: left;
+    padding: 50px;
+    width: 20%;
+    height: 20%;
+}
+
 
 .templet{
     float: left;

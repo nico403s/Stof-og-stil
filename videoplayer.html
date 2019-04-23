@@ -12,14 +12,19 @@
     <div id="main">
 
 	<h2>Hjemmelavet påskekyllinger</h2>
-   
+    <img src="img/kyllinger.jpeg" alt="et thumbnail af videoen" class="kyl">
     <a href="videoliste.html"><img src="icons/tilbage.svg" alt="video"class="tilbage"></a>
 	
+           
+    <div id="overlay" class="overlayen">
+            
+            <img src="icons/thumbs-up.svg" alt="like icon" class="luk" id="luk">
+    
+    </div>
 	
 	
-	<div class="kyl"></div>
     <img src="icons/nem.svg" class="svar">
-    <img src="icons/like.svg" class="like">
+    <img src="icons/like.svg" class="like" id="open">
     <img src="icons/icons8-heart-filled-100.png" class="gem">
 	
 	<p>Dette er en video hvor  jeg viser hvordan jeg laver en taske.
@@ -58,7 +63,24 @@
   <a href="profil.html"><img src="icons/icons8-user-96.png" alt="user-icon"><i class="fa fa-globe"></i></a>
   <a href="search.html"><img src="icons/icons8-search-filled-100.png" alt="search-icon"><i class="fa fa-trash"></i></a> 
 </div>
+    <script>
     
+        var overlay = document.getElementById('overlay')
+        var closeMenu = document.getElementById('luk')
+        
+        document.getElementById('open').addEventListener('click',
+        function(){
+            overlay.classList.add('show-menu');
+        });
+        document.getElementById('luk').addEventListener('click',
+        function(){
+            overlay.classList.remove('show-menu');
+        });
+        
+
+        
+        
+    </script>
 </footer>	
 </body>
 </html>
