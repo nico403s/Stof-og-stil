@@ -64,20 +64,25 @@
     
 }
 
-
-
-.btn{
-    position: absolute;
-    display: block;
+.bun{
+	float: left;
+	position: absolute;
+    width: 400px;
+    height: 50px;
     margin-left: 30%;
     margin-right: auto;
     margin-top: 200%;
-    text-decoration: none;
-    width: 400px;
-    height: 50px;
     border: solid 3px #707070;
 	background-color: #59B08D;
 	border-radius: 10px;
+}
+
+.btn{
+    display: block;
+    text-decoration: none;
     font-family: "Signika Light";
 	font-size: 30px;
+	text-align: center;
+	color: #FFF;
+	margin-left: 0px;
 }
