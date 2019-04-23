@@ -263,7 +263,11 @@ background: white;
     background: white;
 	padding-bottom: 800px;
 }
-	#square1{
+
+.square1{
+    width: 300px;
+		height: 300px;
+		position: absolute;
 		width: 300px;
 		height: 300px;
 		position: absolute;
@@ -271,8 +275,6 @@ background: white;
 		border: solid 10px #707070;
 		margin: 50px 0 0 75px;
 		border-radius: 50px;
-		background-image: url("icons/bukserne-1.svg");
-		background-size: cover;
 }
 
 		#square2{
