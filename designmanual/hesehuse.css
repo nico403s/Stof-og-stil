@@ -282,151 +282,15 @@ background: white;
 .square1{
     width: 300px;
 		height: 300px;
-		position: absolute;
 		width: 300px;
 		height: 300px;
-		position: absolute;
 		background-color: #FFF;
 		border: solid 10px #707070;
 		margin: 50px 0 0 75px;
 		border-radius: 50px;
 }
 
-		#square2{
-			width: 300px;
-			height: 300px;
-			position: absolute;
-			background-color: #FFF;
-			border: solid 10px #707070;
-			margin: 50px 0 0 425px;
-			border-radius: 50px;
-}
-			#square3{
-				width: 300px;
-				height: 300px;
-				position: absolute;
-				background-color: #FFF;
-				border: solid 10px #707070;
-				margin: 50px 0 0 775px;
-				border-radius: 50px;
-}
-				#square4{
-					width: 300px;
-					height: 300px;
-					position: absolute;
-					background-color: #FFF;
-					border: solid 10px #707070;
-					margin: 50px 0 0 1125px;
-					border-radius: 50px;
-}
-	#square5{
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		background-color: #FFF;
-		border: solid 10px #707070;
-		margin: 400px 0 0 75px;
-		border-radius: 50px;
-}
-		#square6{
-			width: 300px;
-			height: 300px;
-			position: absolute;
-			background-color: #FFF;
-			border: solid 10px #707070;
-			margin: 400px 0 0 425px;
-			border-radius: 50px;
-}
-			#square7{
-				width: 300px;
-				height: 300px;
-				position: absolute;
-				background-color: #FFF;
-				border: solid 10px #707070;
-				margin: 400px 0 0 775px;
-				border-radius: 50px;
-}
-				#square8{
-					width: 300px;
-					height: 300px;
-					position: absolute;
-					background-color: #FFF;
-					border: solid 10px #707070;
-					margin: 400px 0 0 1125px;
-					border-radius: 50px;
-}
-	#square9{
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		background-color: #FFF;
-		border: solid 10px #707070;
-		margin: 750px 0 0 75px;
-		border-radius: 50px;
-}
-		#square10{
-			width: 300px;
-			height: 300px;
-			position: absolute;
-			background-color: #FFF;
-			border: solid 10px #707070;
-			margin: 750px 0 0 425px;
-			border-radius: 50px;
-}
-			#square11{
-				width: 300px;
-				height: 300px;
-				position: absolute;
-				background-color: #FFF;
-				border: solid 10px #707070;
-				margin: 750px 0 0 775px;
-				border-radius: 50px;
-}
-				#square12{
-					width: 300px;
-					height: 300px;
-					position: absolute;
-					background-color: #FFF;
-					border: solid 10px #707070;
-					margin: 750px 0 0 1125px;
-					border-radius: 50px;
-}
-	#square13{
-		width: 300px;
-		height: 300px;
-		position: absolute;
-		background-color: #FFF;
-		border: solid 10px #707070;
-		margin: 1100px 0 0 75px;
-		border-radius: 50px;
-}
-		#square14{
-			width: 300px;
-			height: 300px;
-			position: absolute;
-			background-color: #FFF;
-			border: solid 10px #707070;
-			margin: 1100px 0 0 425px;
-			border-radius: 50px;
-}
-			#square15{
-				width: 300px;
-				height: 300px;
-				position: absolute;
-				background-color: #FFF;
-				border: solid 10px #707070;
-				margin: 1100px 0 0 775px;
-				border-radius: 50px;
-}
-				#square16{
-					width: 300px;
-					height: 300px;
-					position: absolute;
-					background-color: #FFF;
-					border: solid 10px #707070;
-					margin: 1100px 0 0 1125px;
-					border-radius: 50px;
-}
+
 
 nav{
 width: 100%;
