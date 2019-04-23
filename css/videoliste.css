@@ -206,10 +206,7 @@ h2{
     height: 150px;
     margin-top: -150px;
     clear: both;
-    width: 100%;
 }
-
-
 
 .icon-bar a {
   float: left;
@@ -234,5 +231,4 @@ h2{
 	float: right;
 	margin: 50px 40px 0 0;
 	position: inherit;
-    height: 150px;
 }
