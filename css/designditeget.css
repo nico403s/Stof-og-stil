@@ -98,25 +98,31 @@ h2{
 }
 
 .bun{
-	position: absolute;
+
     margin-right: 100px;
     margin-top: 50px;
+    margin-bottom: 140px;
     float: right;
     width: 300px;
-    height: 150px;
+    height: 100px;
+    border: solid 3px #707070;
+	background-color: #59B08D;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration-color: #fff;
+    
 }
 
 
 
 .btn{
     text-decoration: none;
-    width: 300px;
-    height: 100px;
-    border: solid 3px #707070;
-	background-color: #59B08D;
-	border-radius: 10px;
+    text-align: center;
     font-family: "Signika Light";
 	font-size: 50px;
+    margin-left: 0px;
+    margin-top: 20px;
+    color: #fff;
 }
 
     
