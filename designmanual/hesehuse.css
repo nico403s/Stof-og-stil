@@ -273,6 +273,7 @@ background: white;
 		border-radius: 50px;
 		background-image: url("icons/blogfri-6.svg");
 		background-repeat: no-repeat;
+		background-size: 300px;
 }
 		#square2{
 			width: 300px;
